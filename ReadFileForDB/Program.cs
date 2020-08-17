@@ -24,7 +24,7 @@ namespace ReadFileForDB
 
         }
 
-        static Queue<string> ReadFile(string path)
+        static Queue<string> ReadFile(string path)     //Счетчик строк
         {
             Queue<string> users = new Queue<string>();
             string line = null;
@@ -72,7 +72,7 @@ namespace ReadFileForDB
             ReadLine();
         }
 
-        public void ReadLine()
+        public void ReadLine()                                  //Обработка строки
         {
             Queue<string> param = new Queue<string>();
             foreach (char i in line)
@@ -96,7 +96,7 @@ namespace ReadFileForDB
             }
             PrintInfo(param);
         }
-        public void PrintInfo(Queue<string> param)
+        public void PrintInfo(Queue<string> param)              //Передеча параметров
         {
             firtsName = param.Dequeue();
             lastName = param.Dequeue();
@@ -106,7 +106,7 @@ namespace ReadFileForDB
 
             InserToDb();
         }
-        void InserToDb()
+        void InserToDb()                                        //Интерация с бд
         {
 
 
