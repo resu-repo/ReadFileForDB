@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadFileForDB", "ReadFileForDB\ReadFileForDB.csproj", "{BF61895E-6691-4403-806D-01EFB5EF2F90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF61895E-6691-4403-806D-01EFB5EF2F90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF61895E-6691-4403-806D-01EFB5EF2F90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF61895E-6691-4403-806D-01EFB5EF2F90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF61895E-6691-4403-806D-01EFB5EF2F90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E0541AB-D22E-40E1-B367-5A563954C823}
+	EndGlobalSection
+EndGlobal
