@@ -22,7 +22,7 @@ namespace ReadFileForDB
             ReadLine();
         }
 
-        public void ReadLine()                                  //Обработка строки
+        public Queue<string> ReadLine()                                  //Обработка строки
         {
             Queue<string> param = new Queue<string>();
             foreach (char i in line)
@@ -44,7 +44,14 @@ namespace ReadFileForDB
                 }
 
             }
-            PrintInfo(param);
+            string test = param.Peek();
+            if (test == "'First Name'")
+                return null;
+            else
+            {
+                PrintInfo(param);
+                return param;
+            }
         }
         public void PrintInfo(Queue<string> param)              //Передеча параметров
         {
