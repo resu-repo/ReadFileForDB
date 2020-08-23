@@ -44,7 +44,7 @@ namespace ReadFileForDB
                 }
 
             }
-            string test = param.Peek();
+            string test = param.Peek();         //Игнор первой строки
             if (test == "'First Name'")
                 return null;
             else
